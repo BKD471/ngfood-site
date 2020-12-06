@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngfood-site';
+   loadednav='recipe'
+  // tslint:disable-next-line: typedef
+  navbartoggler(navbarInput:string)
+  {
+
+     this.loadednav=navbarInput;
+
+  }
 }
